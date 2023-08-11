@@ -1,0 +1,66 @@
+.pres{
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px 1px rgb(201, 44, 16);
+}
+.pres p{
+    margin-top: -15px;
+}
+.pres:hover{
+    text-shadow: -5px 5px 4px red;
+}
+.info{
+    background-size: 100%;
+    background-image: url(https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg);
+    padding: 3%;
+    font-size: 20px;
+    color:orange;
+    text-shadow: 2px 2px 0px black;
+        
+}
+.info:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.comida,.postre{
+    text-align:left;
+    width:75%;
+
+}
+.menu{
+    border-radius: 25px;
+    width: 80%;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 700px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    margin-top: -20px;
+}
+.precio{
+    text-align: right;
+    width:25%;
+}
+h2,p{
+    text-align: center;
+}
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    font-style: oblique;
+}
+body{
+    font-family: sans-serif;
+    background-color: tomato;
+}   
